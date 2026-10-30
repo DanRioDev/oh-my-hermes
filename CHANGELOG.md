@@ -818,6 +818,14 @@ All notable changes will be documented here.
   which failure it met. `docs/INSTALLATION.md` explains the case and how to
   check what the plugin sees (#2415, reported by @trend0522).
 
+- **The OMH pane in Hermes Desktop reads idle when nothing is running and
+  keeps the plan and status bar in agreement.** Old runs no longer keep it
+  looking busy. OMH catches and the delegation graph appear alongside the
+  plan, board and active fanout graph, while individual subagent rows stay
+  in Desktop's Agents panel. Calmer colours keep running work distinct from
+  waiting or finished work, and the pane follows Desktop's language when
+  Korean is selected.
+
 ## 4.0.3 - 2026-10-27
 
 - **`plan` and `ralplan` name the goal beyond the request, the raw material,
